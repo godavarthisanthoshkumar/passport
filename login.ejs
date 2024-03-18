@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f4f4f4;
+    }
+    
+    form {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 300px;
+    }
+    
+    form input[type="text"],
+    form input[type="password"],
+    form button {
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 100%;
+    }
+    
+    form button {
+        background-color: #007bff;
+        color: #fff;
+        cursor: pointer;
+    }
+    
+    form button:hover {
+        background-color: #0056b3;
+    }
+    
+    form a {
+        text-decoration: none;
+        text-align: center;
+        display: block;
+        margin-top: 10px;
+        color: #007bff;
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-enuiv="X-UA-Compatible" contest="IE=edge">
+    <meta name="viewport" content="width=device=width,initial-scale=1.0">
+    <title>login</title>
+</head>
+
+<body>
+    <form action="/login" method='post'>
+        <input type="text" name="'username" placeholder="Enter username">
+        <input type="password" name='password' placeholder="Enter password">
+        <a href="register">New here?</a>
+        <button type="submit">Log in</button>
+        <button type="submit">Login with Okta</button>
+    </form>
+</body>
+
+</html>
